@@ -1,0 +1,228 @@
+/**************************** *** Complete - 7/10/2025 *****************************/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+
+  /* todo... bonus code */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.top-section {
+  background-color: #001d37;
+  color: white;
+  padding-top: 139px;
+  padding-bottom: 139px;
+  max-width: 1066px;
+  margin: 0 auto;
+  /* todo... bonus code */
+  position: relative;
+}
+
+.top-section-wrapper {
+  background-color: #001d37;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.top-section h1 {
+  font-size: 6.25rem;
+  line-height: 97.3%;
+  margin: 0;
+  max-width: 525px;
+}
+
+.intro-text {
+  font-size: 1.25rem;
+  line-height: 169.3%;
+  margin: 1rem 0;
+  max-width: 435px;
+}
+
+.my-btn {
+  background-color: #475aff;
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid #475aff;
+  border-radius: 1000px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  padding: 13px 25px;
+  display: inline-block;
+  transition: background-color 0.3s ease-out, border 0.3s ease-out,
+    color 0.3s ease-out;
+}
+
+.my-btn:hover {
+  background-color: #2e40e2;
+  border: 2px solid #2e40e2;
+}
+
+.intro-buttons {
+  margin-bottom: 130px;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+
+.mr {
+  margin-right: 10px;
+}
+
+.intro-box {
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  padding: 33px 25px;
+
+  /* todo... bonus code */
+  text-align: center;
+  border-radius: 8px;
+}
+
+.intro-box p {
+  margin: 0;
+  font-size: 1.0625rem;
+}
+
+.intro-box h2 {
+  font-size: 1.5rem;
+  margin: 31px 0 3px 0;
+}
+
+.all-intro-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+}
+
+/* todo... bonus code */
+.intro-box :hover {
+  transform: translateY(-1px);
+}
+
+.circle-one {
+  width: 617px;
+  height: 617px;
+  background: #d660ff;
+  border-radius: 50%;
+  top: 62px;
+  right: -390px;
+  position: absolute;
+  opacity: 0.85;
+  filter: blur(150px);
+}
+
+.circle-two {
+  width: 617px;
+  height: 617px;
+  background: #6079ff;
+  border-radius: 50%;
+  top: -365px;
+  left: -123px;
+  position: absolute;
+  opacity: 0.85;
+  filter: blur(150px);
+}
+
+.top-content {
+  z-index: 2;
+  position: relative;
+}
+
+.page-section {
+  background-color: #fff;
+  padding: 130px 16px;
+}
+
+.page-section-inner {
+  max-width: 1066px;
+  margin: 0 auto;
+}
+
+.page-section-title {
+  font-size: 5.31rem;
+  margin: 0;
+  line-height: 1;
+}
+
+.pet-filter {
+  color: #9f9f9f;
+  font-size: 1.15rem;
+}
+
+.pet-filter button {
+  background-color: transparent;
+  border: none;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.15rem;
+  color: #9f9f9f;
+}
+
+.list-of-pets {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 34px;
+  row-gap: 30px;
+}
+
+.pet-card {
+  display: grid;
+  border: 1px solid #f3f3f3;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.08);
+  grid-template-columns: 165px 1fr;
+  overflow: hidden;
+}
+
+.pet-card-photo {
+  grid-row: 1;
+  order: 1;
+}
+
+.pet-card-photo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.pet-card-text {
+  padding: 20px 30px;
+}
+
+.pet-card-text h3 {
+  margin: 0 0 5px 0;
+  font-size: 1.625rem;
+  font-weight: 600;
+}
+
+.pet-description {
+  margin: 0 0 1rem 0;
+  font-size: 0.9rem;
+  line-height: 150%;
+  color: #626262;
+}
+
+.pet-age {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #a2a2a2;
+}
+
+.footer {
+  text-align: center;
+  color: #a6a6a6;
+  font-size: 0.875rem;
+  padding: 50px 0 50px 0;
+
+  /* todo... bonus code */
+  background-color: #001d37;
+}
